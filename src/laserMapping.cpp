@@ -316,6 +316,12 @@ void process() {
 			std::cout<<"laserCloudCenWidth"<<laserCloudCenWidth<<std::endl;
 			std::cout<<"laserCloudCenWidth"<<laserCloudCenWidth<<std::endl;
 			std::cout<<"laserCloudCenWidth"<<laserCloudCenWidth<<std::endl;
+			std::cout<<"centerCubeI"<<centerCubeI<<std::endl;
+			std::cout<<"centerCubeJ"<<centerCubeJ<<std::endl;
+			std::cout<<"centerCubeK"<<centerCubeK<<std::endl;
+
+
+
       if (t_w_curr.x() + 25.0 < 0) centerCubeI--;
       if (t_w_curr.y() + 25.0 < 0) centerCubeJ--;
       if (t_w_curr.z() + 25.0 < 0) centerCubeK--;
